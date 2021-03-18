@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,20 @@
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#008000">
+  <link rel="apple-touch-icon" href="icon/i1.png">
   <script src="index.js" charset="UTF-8" defer></script>
   <title>Progressive Web Application : Demo</title>
 </head>
+
 <body>
   <h1>This is my bear</h1>
   <img src="images/b1.jpg" alt="">
 </body>
+<script type="text/javascript">
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/sw.js")
+      .then(function () { console.log("Service worker registered"); });
+  }
+</script>
+
 </html>
