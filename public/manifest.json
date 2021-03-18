@@ -1,0 +1,22 @@
+{
+    "short_name": "Bear",
+    "name": "My bear Pictures",
+    "icons": [
+      {
+        "src": "/icon/i2.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/icon/i1.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#3367D6",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "description": "This is my bears",
+    "display": "fullscreen"
+  }
