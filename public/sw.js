@@ -5,10 +5,10 @@ self.addEventListener("install", function (e) {
         "/index.html",
         "/index.js",
         "/style.css",
-        "/images/b1.png",
-        "/images/b2.png",
-        "/images/b3.png",
-        "/images/b4.png",
+        "/images/b1.jpg",
+        "/images/b2.jpg",
+        "/images/b3.jpg",
+        "/images/b4.jpg",
       ]);
     })
   );
